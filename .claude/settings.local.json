@@ -6,7 +6,9 @@
       "Bash(npm install *)",
       "Bash(node -e ' *)",
       "Bash(curl -s -F \"files=@test-image.jpg;type=image/jpeg\" -F \"uploadedBy=테스트\" http://localhost:3000/api/albums/Nj9D355E/photos)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git commit *)"
     ]
   }
 }
