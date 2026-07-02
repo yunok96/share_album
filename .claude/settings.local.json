@@ -17,7 +17,12 @@
       "Bash(cmdkey /list)",
       "PowerShell(cmdkey /list)",
       "Bash(gh --version)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "WebFetch(domain:github.com)",
+      "Bash(git fetch *)",
+      "Bash(git pull *)",
+      "Bash(git branch *)",
+      "Bash(git stash *)"
     ]
   }
 }
