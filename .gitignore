@@ -43,3 +43,6 @@ next-env.d.ts
 # app data
 /data/
 /uploads/
+
+# local-only tool settings
+.claude/settings.local.json
