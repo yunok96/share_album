@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm -v)",
-      "Bash(npx --yes create-next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm)"
+      "Bash(npx --yes create-next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm)",
+      "Bash(npm install *)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -F \"files=@test-image.jpg;type=image/jpeg\" -F \"uploadedBy=테스트\" http://localhost:3000/api/albums/Nj9D355E/photos)",
+      "Bash(git add *)"
     ]
   }
 }
